@@ -1,0 +1,329 @@
+body, header, ul {
+    margin: 0;
+}
+
+body { 
+  background-color: #e6deb8;
+  width: 100%;
+  height: 100%;
+  }
+
+.logo {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 80%;
+    margin-top: 5vh;
+}
+
+main {
+    width: 100%;
+    height: 50%;
+    background-color: #f3efdc;
+    margin-top: 5vh;
+}
+
+p {
+    width: 83%;
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 1.5em;
+    padding-top: 2.5vh;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+width: 90%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text1 {
+  color: #B77947;
+  font-size: 15px;
+  padding: -200px 12px;
+  position: relative;
+  bottom: -10px;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Arial bold", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.text2 {
+    color: #82945A;
+    font-size: 15px;
+    padding: -200px 12px;
+    position: relative;
+    bottom: -10px;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Arial bold", Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .text3 {
+    color: #D8B477;
+    font-size: 15px;
+    padding: -200px 12px;
+    position: relative;
+    bottom: -10px;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Arial bold", Arial, sans-serif;
+    font-weight: 700;
+  }
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #B77947;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #82945A;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .dot3 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #D8B477;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@media (max-width: 600px) and (min-width: 100px){
+  input {
+    width: 60vw;
+    height: 7vh;
+    margin-left: 20%;
+    color: #B77947;
+    border-color: #F3EFDC;
+    background-color: #F3EFDC;
+    border-width: 1px;
+    margin-top: 5vh;
+    font-family: "Arial bold", Arial, sans-serif; 
+    font-size: 1.4em;
+    font-weight: 700;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 601px){
+input {
+  width: 50vw;
+  height: 15vh;
+  margin-left: 25%;
+  color: #B77947;
+  border-color: #F3EFDC;
+  background-color: #F3EFDC;
+  border-width: 1px;
+  margin-top: 5vh;
+  font-family: "Arial bold", Arial, sans-serif; 
+  font-size: 2em;
+  font-weight: 700;
+  border-radius: 15px;
+}
+}
+
+@media (max-width: 3000px) and (min-width: 1201px){
+input {
+  width: 30vw;
+  height: 7vh;
+  margin-left: 35%;
+  color: #B77947;
+  border-color: #F3EFDC;
+  background-color: #F3EFDC;
+  border-width: 1px;
+  margin-top: 5vh;
+  font-family: "Arial bold", Arial, sans-serif; 
+  font-size: 2em;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+main {
+    width: 100%;
+    height: 70vh;
+    background-color: #f3efdc;
+    margin-top: 5vh;
+}
+
+p {
+  width: 40%;
+  margin-left: 5vh;
+  display: flx;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  padding-top: 15vh;
+  font-weight: 500;
+}
+
+.slideshow-container {
+  margin-top: -35vh;
+  width: 100%;
+  display: flex;
+    max-width: 60vh;
+    position: relative;
+    margin-left: 95vh;
+  }
+
+.dots {
+  margin-top: -3vh;
+  margin-right: -35vh;
+}
+
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #B77947;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #82945A;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .dot3 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #D8B477;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+.text1 {
+  color: #B77947;
+  font-size: 15px;
+  padding: -200px 12px;
+  position: relative;
+  bottom: -10px;
+  width: 100%;
+  text-align: right;
+  font-size: 2em;
+  font-family: "Arial bold", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.text2 {
+    color: #82945A;
+    font-size: 15px;
+    padding: -200px 12px;
+    position: relative;
+    bottom: -10px;
+    width: 100%;
+    text-align: right;
+    font-size: 2em;
+    font-family: "Arial bold", Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .text3 {
+    color: #D8B477;
+    font-size: 15px;
+    padding: -200px 12px;
+    position: relative;
+    bottom: -10px;
+    width: 100%;
+    text-align: right;
+    font-size: 2em;
+    font-family: "Arial bold", Arial, sans-serif;
+    font-weight: 700;
+  }
+
+}
+
+footer {
+  width: 100%;
+  margin-top: 5vh;
+}
